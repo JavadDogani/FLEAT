@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the FLEAT paper listed under preferred-citation."
+type: software
+title: "FLEAT experimental runner"
+abstract: >-
+  Simulation-first federated learning benchmark runner implementing FLEAT:
+  per-client adaptive local-step control, masked uploads with
+  contributor-aware aggregation, and energy/time accounting over
+  heterogeneous edge devices, with FedAvg, FedProx, local-update-only and
+  pruning-only baselines.
+authors:
+  - family-names: Dogani
+    given-names: Javad
+    affiliation: IMDEA Networks Institute
+    orcid: "https://orcid.org/0000-0002-0466-2939"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/JavadDogani/FLEAT"
+keywords:
+  - federated learning
+  - energy efficiency
+  - edge computing
+  - model pruning
+  - heterogeneous devices
+preferred-citation:
+  type: article
+  title: "FLEAT: Energy-Accuracy Trade-Off in Federated Learning Over Heterogeneous Edge Devices"
+  authors:
+    - family-names: Dogani
+      given-names: Javad
+      affiliation: IMDEA Networks Institute
+      orcid: "https://orcid.org/0000-0002-0466-2939"
+    - family-names: Namvar
+      given-names: Reza
+      affiliation: IMDEA Networks Institute
+      orcid: "https://orcid.org/0000-0003-2338-0838"
+    - family-names: Khodarahmi
+      given-names: Masoumeh
+      affiliation: IMDEA Networks Institute
+      orcid: "https://orcid.org/0009-0000-5142-2586"
+    - family-names: Khunjush
+      given-names: Farshad
+      affiliation: Shiraz University
+      orcid: "https://orcid.org/0000-0002-3339-6051"
+    - family-names: Laoutaris
+      given-names: Nikolaos
+      affiliation: IMDEA Networks Institute
+      orcid: "https://orcid.org/0000-0002-7361-106X"
+  journal: "IEEE Transactions on Mobile Computing"
+  publisher:
+    name: IEEE
+  volume: 25
+  issue: 11
+  start: 19797
+  end: 19811
+  year: 2026
+  month: 11
+  doi: "10.1109/TMC.2026.3710334"
+  url: "https://doi.org/10.1109/TMC.2026.3710334"
