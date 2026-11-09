@@ -20,3 +20,7 @@ venv/
 .idea/
 .vscode/
 .DS_Store
+
+# Experiment artifacts (default --out_dir and --data_root)
+/outputs_fleat/
+/data/
