@@ -196,7 +196,6 @@ class FederatedAggregator:
             contrib_weights = []
             for w, upd in zip(weights, client_updates):
                 d = upd["delta_masked"][name]
-                tau = max(1, int(upd["tau"]))
                 if d is None:
                     continue
                 if torch.is_floating_point(d):
