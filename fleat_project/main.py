@@ -15,8 +15,8 @@ from .io_utils import save_outputs
 from .utils import TeeStream, make_default_run_name
 
 
-def main():
-    args = parse_args()
+def main(argv=None):
+    args = parse_args(argv)
     if getattr(args, "disable_log_to_file", False):
         args.log_to_file = False
 

@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 
 
-def parse_args():
+def parse_args(argv=None):
     p = argparse.ArgumentParser(description="FLEAT simulation/evaluation runner")
 
     p.add_argument("--method", type=str, default="fleat",
@@ -70,7 +70,7 @@ def parse_args():
 
     p.add_argument("--alpha_sweep", type=str, default="", help='Comma-separated alpha values (e.g., "0,0.25,0.5,0.75,1")')
 
-    args = p.parse_args()
+    args = p.parse_args(argv)
     if args.quiet:
         args.verbose = False
     return args
